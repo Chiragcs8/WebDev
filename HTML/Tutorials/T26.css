@@ -1,0 +1,12 @@
+.container{
+    height: 488px;
+    width: 466px;
+    background-color:azure;
+    border: .3px solid black;
+}
+img{
+    height: 488px;
+    width: 466px;
+    object-fit: cover ;
+    object-position: bottom left;
+}
