@@ -1,0 +1,41 @@
+body {
+  background-color: gray;
+}
+.card {
+  background-color: rgb(245, 244, 230);
+  width: 300px;
+  height: 470px;
+  border-radius: 15px;
+}
+.img {
+  padding: 15px;
+}
+.img img {
+  border-radius: 15px;
+  width: 270px;
+}
+.para {
+  padding: 10px;
+}
+.cap {
+  padding: 0px 20px;
+}
+.cap span {
+  border: 1.7px solid rgb(159, 92, 10);
+  padding: 3px;
+  border-radius: 100px;
+}
+.button {
+  text-align: center;
+}
+.button button {
+  padding: 9px;
+  border-radius: 70px;
+  background-color: rgb(253, 231, 149);
+  border: none;
+  color: rgb(138, 69, 4);
+  font-weight: bold;
+}
+.button button:hover {
+  background-color: rgb(245, 244, 230);
+}
