@@ -1,0 +1,15 @@
+.container{
+    background-color: antiquewhite;
+    width: 40vw;
+    height: 53vh;
+}
+.box{
+    background-color: aquamarine;
+    width: 7vw;
+    height: 5.5vh;
+}
+.translate{
+    transition: all 3s cubic-bezier(0, 0.68, 1, 0.45);
+    transform: translate(10vw,10vh);
+    background-color: brown;
+}

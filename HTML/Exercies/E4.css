@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #f6cb21;
+  --secondary-color: #fbf897af;
+  --text-color: rgb(134, 68, 22);
+}
+/* :root {
+    --primary-color: #13c322;
+    --secondary-color: #c9fb97af;
+    --text-color: rgb(255, 255, 255);
+  } */
+
+body {
+  background-color: var(--secondary-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: var(--primary-color);
+  padding: 12px 0;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+}
+
+ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+}
