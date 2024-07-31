@@ -1,5 +1,0 @@
-- 👋 Hi, I’m Xebec
-- 👀 I’m interested in Web devlpoment
-- 🌱 I’m currently learning Javascript and MERN
-- 💞️ I’m looking to collaborate on any webdev releted internship
-- 📫 How to reach me chirag98589@gmail.com
