@@ -12,7 +12,10 @@ console.log(RandomColor())
 
 
 
-document.querySelectorAll(".box").forEach(element => {
-    element.style.backgroundColor = `${RandomColor()}`
-});
+
+let a = setInterval(() => {
+    document.querySelectorAll(".box").forEach(element => {
+        element.style.backgroundColor = `${RandomColor()}`
+    });
+}, 500);
 
