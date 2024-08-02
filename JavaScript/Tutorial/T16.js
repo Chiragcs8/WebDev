@@ -63,17 +63,17 @@ class User {
     }
 
     set name (value) {
-        if (value.lengh < 4){
-            console.log("name is too short.");
+        if (value.length < 4){
+            console.log("Name is too short.");
             return;
         }
         this._name = value;
     }
 }
 
-let user = new User("Ram");
+let user = new User("John");
 console.log(user.name);
 
-user = new User ("");
-// user.name = "Xebec"
-// console.log(user.name);
+user.name = ("")
+user.name = "Xebec"
+console.log(user.name);
