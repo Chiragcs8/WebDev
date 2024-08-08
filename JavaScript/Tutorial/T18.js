@@ -36,9 +36,90 @@ title.innerHTML
 
 title.textContent
 
-console.log(document.querySelector('.heading'))
+document.querySelector('.heading')
 
-console.log(document.querySelector('#title'))
+document.querySelector('#title')
 
-console.log(document.querySelector('h1'))
+document.querySelector('h1')
 
+document.querySelector('input[type = "password"]')
+
+document.querySelector('p:first-child')
+
+document.querySelector('div:first-child')
+
+document.querySelector('div:nth-child(1)')
+
+document.querySelector('ul')
+
+const myul = document.querySelector('ul')
+
+myul.querySelector
+
+myul.querySelector('li')
+
+const turngreen = myul.querySelector('li')
+
+turngreen.style.backgroundColor = 'gray'
+
+turngreen.style.padding = "10px"
+
+turngreen.innerText
+
+turngreen.innerText = 'five'
+
+document.querySelectorAll
+
+document.querySelectorAll('li')
+
+const templist = document.querySelectorAll('li')
+
+templist
+
+const myarr = [1, 2, 3, 4, 5]
+
+myarr
+
+templist[0].style.color = 'green'
+
+templist[2].style.color = 'green'
+
+templist[1].style.color = 'green'
+
+const myh1 = document.querySelectorAll('h1')
+
+myh1
+
+myh1[0].style.color = 'green'
+
+myh1[0].style.color = 'red'
+
+templist[0].style.color = 'black'
+
+templist[0].style.color = 'white'
+
+templist.forEach(function (l) {
+    l.style.backgroundColor = 'red'
+})
+
+templist.forEach(function (l) {
+    l.style.backgroundColor = 'white'
+})
+
+templist.forEach(function (l) {
+    l.style.backgroundColor = 'black'
+})
+
+document.getElementsByClassName('')
+
+document.getElementsByClassName('list-item')
+
+const tempclasslist = document.getElementsByClassName('list-item')
+
+Array.from(tempclasslist)
+
+const myconvertedarr = Array.from(tempclasslist)
+
+myconvertedarr.forEach(function(li){
+    li.style.color = 'orange'
+})
