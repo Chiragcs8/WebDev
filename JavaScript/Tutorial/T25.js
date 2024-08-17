@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 console.log("Learning about Prototype");
-=======
-console.log("Laerning about Prototype");
->>>>>>> 798cd541ababda64ab12bc9e1e5486f60ce722be
 
 
 // let myName = "Chirag     "
