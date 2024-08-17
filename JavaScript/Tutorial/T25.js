@@ -1,6 +1,5 @@
 console.log("Learning about Prototype");
 
-
 // let myName = "Chirag     "
 // let mychannel = "Chai      "
 
