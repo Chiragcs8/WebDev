@@ -1,10 +1,10 @@
-import Greetings from "./greetings";
+import Greetings from "./Greetings";
 
 
 function App() {
   return (
     <>
-    <h1>Welcome to island</h1>
+    <h1>Welcome to Island</h1>
     <Greetings />
     </>
   );
