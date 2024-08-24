@@ -1,6 +1,6 @@
 function Island() {
     return (
-        <h3>Island of Pirates</h3>
+        <h1>Island of Pirates</h1>
     )
 
 }

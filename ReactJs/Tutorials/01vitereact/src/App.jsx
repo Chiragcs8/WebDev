@@ -2,12 +2,12 @@ import { useState } from 'react'
 import Island from './Island'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const username = 'Gol D. Roger'
 
   return (
     <>
     <Island />
-    <h1>Freest man of them all</h1>
+    <h2>Freest man of them all {username}</h2>
     
     </>
   )
