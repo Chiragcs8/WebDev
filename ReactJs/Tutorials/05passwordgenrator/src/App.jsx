@@ -1,9 +1,10 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 
 function App() {
+  console.log(
+    "Making PasswordGenrator using diifernt types of hooks and optimizinge it"
+  );
 
-  console.log("Making PasswordGenrator using diifernt types of hooks and optimizinge it");
-  
   // State to manage password length, numbers, characters, and generated password
   const [length, setLength] = useState(8); // Default password length is 8
   const [numallow, setNumallow] = useState(false); // Boolean to allow numbers in password
