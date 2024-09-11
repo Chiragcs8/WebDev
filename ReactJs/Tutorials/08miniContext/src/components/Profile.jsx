@@ -1,29 +1,12 @@
-import React, {useState, useContext} from 'react'
-import UserContext from '../context/UserContext'
+import React, { useContext } from "react";
+import UserContext from "../context/UserContext";
 
-function Login() {
-    const [username, setUsername] = useState('')
-    const [password, setPassword] = useState('')
+function Profile() {
+  const { user } = useContext(UserContext);
 
-    const {setUser} = useContext(UserContext)
+  if (!user) return <div>plese login</div>
 
-    const handleSunmit = () => {
-
-    }
-  return (
-    <div>
-        <h2>Login</h2>
-        <input type='text' 
-        value={username}
-        onChange={()=> setUsername(e.target.value)}
-        placeholder='username' />
-        <input type='text' 
-        value={password}
-        onChange={()=> setPassword(e.target.value)}
-        placeholder='password' />
-        <button onClick={handleSunmit}>Submit</button>
-    </div>
-  )
+  return <div>Welcome {user.username}</div>
 }
 
-export default Login
+export default Profile;
