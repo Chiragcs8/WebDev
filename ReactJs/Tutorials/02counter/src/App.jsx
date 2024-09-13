@@ -10,7 +10,7 @@ function App() {
   // let counter = 5
 
   const addValue = () => {
-    if(counter <= 19){
+    if(counter <= 68){
       counter = counter + 1
       setCounter(counter)
     }
