@@ -5,12 +5,12 @@ function App() {
 
   console.log("Learning hooks through Simple Counter Projects");
   
-  let [counter, setCounter] = useState(5)
+  let [counter, setCounter] = useState(0)
 
   // let counter = 5
 
   const addValue = () => {
-    if(counter <= 68){
+    if(counter < 69){
       counter = counter + 1
       setCounter(counter)
     }
@@ -18,7 +18,7 @@ function App() {
   }
 
   const removeValue = () => {
-    if (counter >= 1){
+    if (counter > 0){
       counter = counter - 1
       setCounter(counter)
     }
