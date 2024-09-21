@@ -98,3 +98,4 @@ fetch('https://api.github.com/users/chiragcs8')
 })
 .catch((error) => console.log(error)
 )
+
