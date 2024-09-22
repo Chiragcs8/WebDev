@@ -18,6 +18,7 @@ xhr.onreadystatechange = function(){
         const username = data.login
         const followers = data.followers
         
+        
     function img (){    const img = document.createElement('img');
         img.src = url;
         img.alt = 'User Avatar';
