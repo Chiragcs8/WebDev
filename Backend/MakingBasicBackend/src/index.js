@@ -1,8 +1,7 @@
 // require('dotenv').config({path: './env'})
 import dotenv from "dotenv"
 
-import mongoosen from "mongoose";
-import { DB_NAME } from "./constants.js"
+import { app } from "./app.js";
 import connectDB from "./db/index.js";
 
 dotenv.config({
@@ -42,7 +41,7 @@ const app = express()
 
 ( async () => {
     try {
-        await mongoosen.connect(`${process.env.MONGODB_URI}`)
+        await mongoosen.connect(`${process.env.MONGODB_URI}/${DB_NAME}`)
         app.on("error",(error) => {
             console.log("Error: ", error);
             throw error;
