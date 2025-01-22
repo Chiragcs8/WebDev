@@ -84,4 +84,4 @@ userSchema.methods.genrateRefreshToken = function (){
     )
 }
 
-export const User = mongoose.mode("user", userSchema)
+export const User = mongoose.model("user", userSchema)
