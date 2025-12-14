@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-        "start": "node dist/interfaceTs.js",
+    "start": "node dist/interfaceTs.js",
     "dev": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
